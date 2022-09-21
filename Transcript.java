@@ -17,8 +17,6 @@ public class Transcript{
     public void removeByCName(String courseNameRemove){
         for(int i=0;i<grades.size();i++){
             if(grades.get(i).getCourseName().equals(courseNameRemove)){
-                System.out.println(i);
-                System.out.println(grades.get(i).getCourseName());
                 grades.remove(i);
             }
         }
@@ -27,8 +25,6 @@ public class Transcript{
     public void removeByCNameAndLetter(String courseNameRemove, String letterGradeRemove){
         for(int i=0;i<grades.size();i++){
             if(grades.get(i).getCourseName().equals(courseNameRemove) && grades.get(i).getLetterGrade().equals(letterGradeRemove)){
-                System.out.println(i);
-                System.out.println(grades.get(i).getCourseName() + grades.get(i).getLetterGrade());
                 grades.remove(i);
             }
         }
