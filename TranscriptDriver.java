@@ -1,12 +1,13 @@
+package assn1.syt;
 public class TranscriptDriver{
     public static void main(String[] args) {
 
         Transcript t1 = new Transcript(8510804);
-        Grade g1 = new Grade("CS1003", "4CH", "A");
-        Grade g2 = new Grade("CS2003", "4CH", "B+");
+        Grade g1 = new Grade("CS1003", "4CH", "B");
+        Grade g2 = new Grade("CS2003", "4CH", "A");
         Grade g3 = new Grade("ECE2213", "4CH", 3.3);
-        Grade g4 = new Grade("ECON1101", "3CH", 4.0);
-        Grade g5 = new Grade("CS2033", "4CH", "C+");
+        Grade g4 = new Grade("ECON1101", "3CH", 2.0);
+        Grade g5 = new Grade("CS2033", "4CH", "B");
 
         t1.addGrade(g1);
         t1.addGrade(g2);
